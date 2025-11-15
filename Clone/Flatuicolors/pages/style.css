@@ -1,0 +1,156 @@
+:root
+
+/* Header Section */
+body {
+  margin: auto;
+  background-color: #3c40c6;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 10px;
+  margin: 0%;
+  justify-content: space-around;
+  gap: 100px;
+}
+
+.left {
+  color: white;
+  margin: 25px;
+  text-transform: capitalize;
+  font-size: 2em;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@media screen and (min-width: 375px) {
+  .left {
+    margin: 25px;
+  }
+}
+
+.right {
+  margin: 25px;
+  text-transform: capitalize;
+  list-style-type: none;
+  margin-left: 40px;
+  font-weight: 600;
+  font-size: 1.5em;
+  color: #fff;
+  display: inline-block;
+  transition: all .2s;
+  position: relative;
+}
+
+.right :hover {
+  border: 5px solid rgb(255, 255, 255);
+  text-decoration: underline
+}
+
+@media screen and (max-width: 768px) {
+  .right {
+    display: none;
+  }
+}
+
+/* Header Section End */
+/* center_heading Section */
+.center_heading {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(255, 255, 255);
+  margin: 80px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.center-heading-content {
+  overflow-wrap: anywhere;
+  text-overflow: clip;
+  font-size: 2em;
+}
+
+@media screen and (max-width: 768px) {
+  .center_heading {
+    margin: auto;
+    text-align: center;
+  }
+}
+
+/* Center Nav  */
+.center-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #0c2461;
+  color: white;
+}
+
+.nav1 {
+  align-items: center;
+  padding: 12px;
+  box-sizing: border-box;
+  min-height: 40px;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.center-nav :hover {
+  background-color: #000000;
+  text-decoration: underline
+}
+
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+  .center-nav {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+/* Center-nav-section-end */
+/* Cards Section */
+.cards_main {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  align-items: center; 
+  margin: 5%;
+}
+.card{
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: left;
+  text-indent: 2px;
+  letter-spacing: .55px;
+  margin: 2%;
+  padding: 1%;
+  gap: 10px 20px;
+}
+@media only screen and (min-width: 320px) (max-width: 768px){
+  .card {
+     margin: 1%;
+     padding: auto;
+  }
+}
+.card_text>a{
+  color: #000;
+  font-size: 1.25em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 600;
+  height: 40px;
+  line-height: 40px;
+  float: left;
+  width: 100%;
+  text-align: left;
+  text-indent: 2px;
+  letter-spacing: .55px;
+  text-decoration: none;
+}
+/* Cards Section End */

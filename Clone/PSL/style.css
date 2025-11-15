@@ -1,0 +1,17 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(198, 230, 198);
+}
+
+.main {
+    margin: 25px;
+    margin-right: 300px;
+    margin-left: 300px;
+    padding-top: 8px;
+    font-size: 1.50em;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    background-color: rgba(40, 231, 113, 0.681);
+    text-align: center;
+}
